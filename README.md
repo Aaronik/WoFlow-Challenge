@@ -8,4 +8,4 @@ The challenge posed two questions:
 1) How many unique Ids are there, and
 2) What's the most commonly seen one?
 
-It found there are 30 unique node ids, and the most common one was a06c90bf-e635-4812-992e-f7b1e2408a3f
+It found there are **30 unique node ids**, and the most common one was **a06c90bf-e635-4812-992e-f7b1e2408a3f**.
