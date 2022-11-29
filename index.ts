@@ -10,6 +10,8 @@ import axios from 'axios'
 // * If we find a node we've already encountered, we want to mark that we've seen it, but not
 //   fetch it again, because then we'd get into an infinite loop.
 // * This isn't really a tree, is it? Because every nodeId results in _multiple_ nodes.
+//  -- update (within the time limit) I realize I just missed a part of the instructions here. I see that it
+//  is a tree and i just didn't use the multiple fetch functionality!
 // * Ok I threw caution to the wind and ran a version that would not handle circular graphs. What I found
 //   is that it's not circular, there are some nodes that multiple are pointing _to_ but do not point
 //   themselves towards anything. So my initial version is fine.
